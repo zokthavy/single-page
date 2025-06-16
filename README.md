@@ -1,3 +1,5 @@
-#Image
+<h1>Example Image</h1>
 
-![alt text](./assets/image.png)
+<p align="center">
+  <img src="./assets/image.png" alt="Example Image"/>
+</p>
