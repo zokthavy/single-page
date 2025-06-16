@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    max-width: 780px;
+    margin: 1rem auto;
+    border: 3px solid #000;
+    padding: 4rem;
+
+    h1 {
+        font-weight: 400;
+    }
+
+    p {
+        font-weight: 600;
+    }
+}
+
+.style {
+    width: 90%;
+    height: 3px;
+    border-top: 3px solid #000000;
+    border-radius: 10px;
+}
+
+.name {
+    padding: 1rem 0;
+}
+
+.department {
+    color: #00a218;
+    font-weight: 500;
+}
+
+.skills,
+.education,
+.experience,
+.personal-profile {
+    .title {
+        margin: 1rem 0;
+        color: #00a218;
+        font-weight: 500;
+    }
+}
+
+.education-detail h3,
+.experience-detail h3 {
+    margin: .5rem 0;
+    font-weight: 600;
+    color: #007bff;
+}
+
+.address {
+    margin: 1rem 0;
+    
+    p {
+        margin: .5rem 0;
+    }
+}
+
+.education {
+    p {
+        margin-bottom: .5rem;
+    }
+}
+
+.experience {
+    margin-top: 2rem;
+
+    .experience-detail {
+        margin: 1.5rem 0;
+    }
+
+    ul {
+        margin: .5rem 0 .5rem 20px;
+
+        li {
+            padding: 3px;
+        }
+    }
+}
